@@ -43,7 +43,7 @@ telegram:
 	--endpoints endpoints.yml
 
 webchat:
-	rasa run -m models/ -vv --endpoints endpoints.yml --credentials credentials.yml --port 5005 --cors '*'
+	rasa run -m models/ -vv --endpoints endpoints.yml --credentials credentials.yml --port 5006 --cors '*'
 
 api:
 	rasa run -m models/ -vv --endpoints endpoints.yml --enable-api
